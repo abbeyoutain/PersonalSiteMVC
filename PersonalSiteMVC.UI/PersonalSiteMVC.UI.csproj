@@ -252,7 +252,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Resume.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="_Archive\assets\vendor\bootstrap\css\bootstrap-grid.css.map" />
@@ -269,6 +269,8 @@
     <Content Include="_Archive\assets\vendor\icofont\fonts\icofont.woff2" />
     <Content Include="_Archive\assets\vendor\jquery\jquery.min.map" />
     <Content Include="Views\Shared\OriginalLayout.cshtml" />
+    <Content Include="Views\Home\Portfolio.cshtml" />
+    <Content Include="Views\Home\Links.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

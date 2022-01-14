@@ -49,11 +49,26 @@
 
             <nav class="nav-menu float-right d-none d-lg-block">
                 <ul>
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="/resume.html">Resume</a></li>
-                    <li><a href="/portfolio.html">Portfolio</a></li>
-                    <li><a href="/links.html">Links</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
+                    <li @{ if (ViewBag.Title == "Home") { @: class="active"
+                        } }>
+                        <a href="@Url.Action("Index", "Home")">Home</a>
+                    </li>
+                    <li @{ if (ViewBag.Title == "Resume") { @: class="active"
+                        } }>
+                        <a href="@Url.Action("Resume", "Home")">Resume</a>
+                    </li>
+                    <li @{ if (ViewBag.Title == "Portfolio") { @: class="active"
+                        } }>
+                        <a href="@Url.Action("Portfolio", "Home")">Portfolio</a>
+                    </li>
+                    <li @{ if (ViewBag.Title == "Links") { @: class="active"
+                        } }>
+                        <a href="@Url.Action("Links", "Home")">Links</a>
+                    </li>
+                    <li @{ if (ViewBag.Title == "Contact Me") { @: class="active"
+                        } }>
+                        <a href="@Url.Action("Contact", "Home")">Contact</a>
+                    </li>
                 </ul>
             </nav><!-- .nav-menu -->
 

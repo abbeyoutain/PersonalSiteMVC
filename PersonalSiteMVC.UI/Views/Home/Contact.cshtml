@@ -1,17 +1,78 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Contact Me";
 }
+
 <h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<!-- ======= Main ======= -->
+<main id="main">
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+    <!-- ======= Contact Me Section ======= -->
+    <section id="contact" class="contact section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-about">
+                        <h3>Abbey Outain</h3>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/abbeyoutain/" class="linkedin" target="_blank"><i class="icofont-linkedin"></i></a>
+                            <a href="https://github.com/abbeyoutain" class="github" target="_blank"><i class="icofont-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="info">
+                        <div>
+                            <i class="icofont-google-map"></i>
+                            <p>Kansas City, MO</p>
+                        </div>
+
+                        <div>
+                            <i class="icofont-envelope"></i>
+                            <p>abbeyoutain@outlook.com</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:2" data-msg="Please enter at least 2 characters." />
+                            <div class="validate"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email." />
+                            <div class="validate"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 4 characters of subject." />
+                            <div class="validate"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please enter a message." placeholder="Message"></textarea>
+                            <div class="validate"></div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Send Message</button></div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Contact Me Section -->
+
+</main>
