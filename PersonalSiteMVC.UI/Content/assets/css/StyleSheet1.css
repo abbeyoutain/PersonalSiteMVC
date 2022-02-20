@@ -1,20 +1,35 @@
 ﻿/*#region index */
 
-.img-fluid {
-    max-width: 70%;
-    height: auto;
+#aboutMe {
+    margin-top: 60px;
+}
+
+#aboutMeText {
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+#headshot {
+    border-radius: 50%
 }
 
 /*#endregion */
 
-/*#region main */
+/*#region contact */
+#sendButton {
+    background: #70b9b0;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+}
 
-/*#endregion */
+    #sendButton:hover {
+        background: #92cac3;
+    }
 
-/*#region header */
-
-/*#endregion */
-
-/*#region footer */
-
+#emailConfirmation {
+    margin-top: 100px;
+    margin-left: 20px;
+}
 /*#endregion */

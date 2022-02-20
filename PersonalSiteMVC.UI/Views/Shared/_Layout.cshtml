@@ -25,7 +25,7 @@
     <link href="/Content/assets/css/style.css" rel="stylesheet">
 
     <!-- Custom Style Sheet -->
-    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link href="~/Content/assets/css/StyleSheet1.css" rel="stylesheet" />
 
     <!-- =======================================================
     * Template Name: Amoeba - v2.0.0
@@ -43,8 +43,6 @@
 
             <div class="logo float-left">
                 <h1 class="text-light"><a href="index.html"><span>Abbey Outain</span></a></h1>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
 
             <nav class="nav-menu float-right d-none d-lg-block">
@@ -73,15 +71,16 @@
             </nav><!-- .nav-menu -->
 
         </div>
-    </header><!-- End #header -->
+    </header>
+    <!-- End #header -->
 
-    @RenderBody()
+        @RenderBody()
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>Abbey Outain</span></strong>. All Rights Reserved
+                &copy; @(DateTime.Now.Year) <strong><span>Abbey Outain</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
