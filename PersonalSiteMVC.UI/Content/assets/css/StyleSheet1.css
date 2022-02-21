@@ -15,6 +15,13 @@
 
 /*#endregion */
 
+/*#region resume */
+#main {
+min-height: 524px;
+}
+
+/*#endregion */
+
 /*#region contact */
 #sendButton {
     background: #70b9b0;
