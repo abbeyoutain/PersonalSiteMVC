@@ -146,6 +146,7 @@
     <Content Include="Content\assets\img\pen.png" />
     <Content Include="Content\assets\img\profilePicture-cropped.jpg" />
     <Content Include="Content\assets\img\river1.jpg" />
+    <Content Include="Content\assets\img\saucePot.jpg" />
     <Content Include="Content\assets\img\scottCashion.jpg" />
     <Content Include="Content\assets\img\sword.jpg" />
     <Content Include="Content\assets\js\main.js" />
@@ -234,6 +235,7 @@
     <Content Include="Content\assets\vendor\icofont\fonts\icofont.woff2" />
     <Content Include="Content\assets\vendor\jquery\jquery.min.map" />
     <Content Include="configs\AppSecretKeys.config" />
+    <Content Include="Content\assets\AbbeyOutainResume.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
